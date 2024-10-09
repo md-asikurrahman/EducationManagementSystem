@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0767C543-F2BD-4487-A3C4-424BC80A7592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManagementSystem.Domain", "EducationManagementSystem.Domain\EducationManagementSystem.Domain.csproj", "{314F543C-48B2-46F9-A398-0F3E8F6C56D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManagementSystem.Infrastructure", "EducationManagementSystem.Infrastructure\EducationManagementSystem.Infrastructure.csproj", "{CF458D6D-D2BE-4035-9118-2FBA727EFF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManagementSystem.Application", "EducationManagementSystem.Application\EducationManagementSystem.Application.csproj", "{513FAF39-B904-4C50-AF47-1EBD68BFF6E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationUI", "ApplicationUI", "{982404CF-2362-478E-BDCB-E10C4804B6BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManagementSystem.API", "EducationManagementSystem.API\EducationManagementSystem.API.csproj", "{1D0A03A0-34AE-4059-9222-9A7A27B664EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationManagementSystem.WEB", "EducationManagementSystem.WEB\EducationManagementSystem.WEB.csproj", "{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314F543C-48B2-46F9-A398-0F3E8F6C56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314F543C-48B2-46F9-A398-0F3E8F6C56D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314F543C-48B2-46F9-A398-0F3E8F6C56D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314F543C-48B2-46F9-A398-0F3E8F6C56D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF458D6D-D2BE-4035-9118-2FBA727EFF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF458D6D-D2BE-4035-9118-2FBA727EFF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF458D6D-D2BE-4035-9118-2FBA727EFF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF458D6D-D2BE-4035-9118-2FBA727EFF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513FAF39-B904-4C50-AF47-1EBD68BFF6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513FAF39-B904-4C50-AF47-1EBD68BFF6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513FAF39-B904-4C50-AF47-1EBD68BFF6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513FAF39-B904-4C50-AF47-1EBD68BFF6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0A03A0-34AE-4059-9222-9A7A27B664EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0A03A0-34AE-4059-9222-9A7A27B664EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0A03A0-34AE-4059-9222-9A7A27B664EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0A03A0-34AE-4059-9222-9A7A27B664EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{314F543C-48B2-46F9-A398-0F3E8F6C56D8} = {0767C543-F2BD-4487-A3C4-424BC80A7592}
+		{CF458D6D-D2BE-4035-9118-2FBA727EFF04} = {0767C543-F2BD-4487-A3C4-424BC80A7592}
+		{513FAF39-B904-4C50-AF47-1EBD68BFF6E5} = {0767C543-F2BD-4487-A3C4-424BC80A7592}
+		{1D0A03A0-34AE-4059-9222-9A7A27B664EB} = {982404CF-2362-478E-BDCB-E10C4804B6BD}
+		{6956AFE3-A2D6-49D9-9A55-C3D9B3A20B20} = {982404CF-2362-478E-BDCB-E10C4804B6BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534C00BB-C582-424A-A4E9-6006F83EC9F3}
+	EndGlobalSection
+EndGlobal
