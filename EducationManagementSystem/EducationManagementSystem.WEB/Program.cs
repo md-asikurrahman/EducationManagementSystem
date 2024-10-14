@@ -32,18 +32,20 @@ app.UseEndpoints(endpoints =>
     // Route for Admin area
     endpoints.MapControllerRoute(
         name: "admin",
-        pattern: "{area:Admin}/{controller=DashBoard}/{action=Index}/{id?}"
+        pattern: "Admin/{controller=DashBoard}/{action=Index}/{id?}",
+        defaults: new { area = "Admin" }
     );
 
     // Default route for the Client area
     endpoints.MapControllerRoute(
-        name: "client_default",  // Unique name for the default client route
+        name: "client_default",
         pattern: "{controller=Home}/{action=Index}/{id?}",
-        defaults: new { area = "Client" }  // Set default area to "Client"
+        defaults: new { area = "Client" }  // Default area set to Client
     );
 
     // Map other attribute-routed controllers
     endpoints.MapControllers();
 });
+
 
 app.Run();
